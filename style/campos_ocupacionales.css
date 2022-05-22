@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #DBD9FF;
+}
+/*contenedor principal*/
+.conteiner_cabecera{
+background-color: blue;
+overflow: hidden;
+}
+
+/*imagen logo*/
+.imagen_cabecera{
+    float: left;
+    width: 35%;
+
+}
+.imagen_cabecera img{
+    width: 65%;
+    margin-left: 45%;
+}
+
+/*titulo contabilidad*/
+.titulo_cabecera{
+    float: right;
+    width: 50%;
+}
+.titulo_cabecera h1{
+    text-shadow: 3px 3px 3px red;
+    font-size: 6vw;
+    margin-left: -20%;
+    margin-top: 15%;
+    color: white;
+}
+
+
+/*boton de navegacion*/
+.navegacion{
+    text-align: center;
+    margin: 5% 0%;
+}
+.navegacion a{
+    padding: 1%;
+    font-size: 2.5vw;
+    text-decoration: none;
+    color: black;
+    background-color: #B4DDF8;
+    border: 0.3vw solid black;
+    margin: 0.5%;
+}
+.navegacion a:hover{
+    background-color: black;
+    color: white;
+}
+
+/*contenido*/
+.contenido_parrafo{
+    width: 90%;
+    text-align: center;
+    font-size: 3vw;
+    margin: 0% 5%;
+}
+
+/*primer div*/
+.primer_div{
+    width: 40%;
+    float: left;
+    border: 0.5vw solid black;
+    text-align: center;
+    margin: 4%;
+    padding-bottom: 3%;
+}
+.primer_div:hover{
+    background-color: white;
+}
+.primer_div h2{
+    font-size: 3vw;
+    color: #FF4500;
+    margin: 3% 0%;
+    text-shadow: 2px 2px 4px rgb(203, 233, 35);
+}
+.primer_div a{
+    text-decoration: none;
+    font-size: 2.5vw;
+    color: #FF1616;
+    background-color: #E3FF00;
+    border-radius: 1vw;
+    padding: 1%;
+    text-shadow: 2px 1px 2px black;
+}
+.primer_div a:hover{
+    background-color: black;
+    color: white;
+}
+.primer_div img{
+    width: 75%;
+    margin-top: 5%;
+}
+/*segundo div*/
+.segundo_div{
+    width: 40%;
+    float: right;
+    border: 0.5vw solid black;
+    text-align: center;
+    margin: 4%;
+    padding-bottom: 3%;
+}
+.segundo_div:hover{
+    background-color: white;
+}
+.segundo_div h2{
+    font-size: 3vw;
+    color: #FF4500;
+    margin: 3% 0%;
+    text-shadow: 2px 2px 4px rgb(203, 233, 35);
+}
+.segundo_div a{
+    text-decoration: none;
+    font-size: 2.5vw;
+    color: #FF1616;
+    background-color: #E3FF00;
+    border-radius: 1vw;
+    padding: 1%;
+    text-shadow: 2px 1px 2px black;
+}
+.segundo_div a:hover{
+    background-color: black;
+    color: white;
+}
+.segundo_div img{
+    width: 90%;
+    margin-top: 5%;
+}
+
+/*tercer div*/
+.tercer_div{
+    width: 40%;
+    float: left;
+    border: 0.5vw solid black;
+    text-align: center;
+    margin: 4%;
+    padding-bottom: 3%;
+}
+.tercer_div:hover{
+    background-color: white;
+}
+.tercer_div h2{
+    font-size: 3vw;
+    color: #FF4500;
+    margin: 3% 0%;
+    text-shadow: 2px 2px 4px rgb(203, 233, 35);
+}
+.tercer_div a{
+    text-decoration: none;
+    font-size: 2.5vw;
+    color: #FF1616;
+    background-color: #E3FF00;
+    border-radius: 1vw;
+    padding: 1%;
+    text-shadow: 2px 1px 2px black;
+}
+.tercer_div a:hover{
+    background-color: black;
+    color: white;
+}
+.tercer_div img{
+    width: 90%;
+    margin-top: 5%;
+}
+/*cuarto div*/
+.cuarto_div{
+    width: 40%;
+    float: right;
+    border: 0.5vw solid black;
+    text-align: center;
+    margin: 4%;
+    padding-bottom: 3%;
+}
+.cuarto_div:hover{
+    background-color: white;
+}
+.cuarto_div h2{
+    font-size: 3vw;
+    color: #FF4500;
+    margin: 3% 0%;
+    text-shadow: 2px 2px 4px rgb(203, 233, 35);
+}
+.cuarto_div a{
+    text-decoration: none;
+    font-size: 2.5vw;
+    color: #FF1616;
+    background-color: #E3FF00;
+    border-radius: 1vw;
+    padding: 1%;
+    text-shadow: 2px 1px 2px black;
+}
+.cuarto_div a:hover{
+    background-color: black;
+    color: white;
+}
+.cuarto_div img{
+    width: 90%;
+    margin-top: 5%;
+}
+
+/*pie de pagina*/
+footer{
+    background-color: #0017B2;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+}
+/*direcion*/
+.direcion{
+    float: left;
+    width: 50%;
+}
+.direcion h3{
+    font-size: 3vw;
+    margin-bottom: 3%;
+}
+.direcion p{
+    font-size: 2vw;
+}
+/*redes sociales*/
+.redes_sociales{
+    float: right;
+    width: 50%;
+}
+
+.redes_sociales h3{
+    font-size: 3vw;
+}
+
+.redes_sociales img{
+    width: 6vw;
+}

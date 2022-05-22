@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #DBD9FF;
+}
+/*contenedor principal*/
+.conteiner_cabecera{
+background-color: #0017B2;
+overflow: hidden;
+}
+
+/*imagen logo*/
+.imagen_cabecera{
+    float: left;
+    width: 35%;
+
+}
+.imagen_cabecera img{
+    width: 65%;
+    margin-left: 45%;
+}
+
+/*titulo contabilidad*/
+.titulo_cabecera{
+    float: right;
+    width: 50%;
+}
+.titulo_cabecera h1{
+    text-shadow: 3px 3px 3px red;
+    font-size: 6vw;
+    margin-left: -20%;
+    margin-top: 15%;
+    color: white;
+}
+
+
+/*boton de navegacion*/
+.navegacion{
+    text-align: center;
+    margin: 5% 0%;
+}
+.navegacion a{
+    padding: 1%;
+    font-size: 2.5vw;
+    text-decoration: none;
+    color: black;
+    background-color: #B4DDF8;
+    border: 0.3vw solid black;
+    margin: 0.5%;
+}
+.navegacion a:hover{
+    background-color: black;
+    color: white;
+}
+
+/*contenido parte 01*/
+.primer_div{
+    float: left;
+    width: 55%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.primer_div h2{
+    color: #0017B2;
+    font-size: 3.5vw;
+    text-align: center;
+}
+.primer_div p{
+    font-size: 3vw;
+    text-align: justify;
+    margin-top: 3%;
+}
+
+/*segundo div*/
+.segundo_div{
+    float: right;
+    width: 35%;
+    margin: 5% 2.5%;
+    text-align: center;
+}
+.segundo_div img{
+    width: 80%;
+}
+
+/*tercer div*/
+.tercer_div{
+    float: left;
+    width: 35%;
+    margin-top: 8%;
+    margin-left: 5%;
+}
+.tercer_div img{
+    width: 100%;
+}
+
+/*cuarto div*/
+.cuarto_div{
+    float: right;
+    width: 53%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+.cuarto_div h2{
+    color: #0017B2;
+    font-size: 3.5vw;
+    text-align: center;
+}
+.cuarto_div p{
+    font-size: 3vw;
+    text-align: justify;
+    margin-top: 3%;
+}
+
+/*pie de pagina*/
+footer{
+    background-color: #0017B2;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+/*direcion*/
+.direcion{
+    float: left;
+    width: 50%;
+}
+.direcion h3{
+    font-size: 3vw;
+    margin-bottom: 3%;
+}
+.direcion p{
+    font-size: 2vw;
+}
+/*redes sociales*/
+.redes_sociales{
+    float: right;
+    width: 50%;
+}
+
+.redes_sociales h3{
+    font-size: 3vw;
+}
+
+.redes_sociales img{
+    width: 6vw;
+}

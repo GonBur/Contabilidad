@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #DBD9FF;
+}
+/*contenedor principal*/
+.conteiner_cabecera{
+background-color: blue;
+overflow: hidden;
+}
+
+/*imagen logo*/
+.imagen_cabecera{
+    float: left;
+    width: 35%;
+
+}
+.imagen_cabecera img{
+    width: 65%;
+    margin-left: 45%;
+}
+
+/*titulo contabilidad*/
+.titulo_cabecera{
+    float: right;
+    width: 50%;
+}
+.titulo_cabecera h1{
+    text-shadow: 3px 3px 3px red;
+    font-size: 6vw;
+    margin-left: -20%;
+    margin-top: 15%;
+    color: white;
+}
+
+
+/*boton de navegacion*/
+.navegacion{
+    text-align: center;
+    margin: 5% 0%;
+}
+.navegacion a{
+    padding: 1%;
+    font-size: 2.5vw;
+    text-decoration: none;
+    color: black;
+    background-color: #B4DDF8;
+    border: 0.3vw solid black;
+    margin: 0.5%;
+}
+.navegacion a:hover{
+    background-color: black;
+    color: white;
+}
+
+/*CONTENIDO*/
+h2{
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 5%;
+    color: #0017B2;
+    margin-top: 10%;
+}
+form{
+    text-align: center;
+}
+label{
+    font-size: 3vw;
+}
+input{
+    padding: 2% 10%;
+    margin-bottom: 5%;
+    font-size: 2.5vw;
+    border-radius: 1.5vw;
+    text-align: center;
+    color: #545454;
+}
+
+.enviar{
+    padding: 2% 20%;
+    background-color: black;
+    color: white;
+}
+.enviar:hover{
+    background-color: rgb(199, 209, 255);
+    color: black;
+}
+#mensaje{
+    padding: 5% 10%;
+}
+
+/*pie de pagina*/
+footer{
+    background-color: #0017B2;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+/*direcion*/
+.direcion{
+    float: left;
+    width: 50%;
+}
+.direcion h3{
+    font-size: 3vw;
+    margin-bottom: 3%;
+}
+.direcion p{
+    font-size: 2.5vw;
+    text-align: center;
+}
+/*redes sociales*/
+.redes_sociales{
+    float: right;
+    width: 50%;
+}
+
+.redes_sociales h3{
+    font-size: 3vw;
+}
+
+.redes_sociales img{
+    width: 6vw;
+    margin-top: 4%;
+}
