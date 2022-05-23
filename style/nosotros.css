@@ -77,7 +77,7 @@ overflow: hidden;
 .segundo_div{
     float: right;
     width: 35%;
-    margin: 5% 0%;
+    margin: 5% 2.5%;
     text-align: center;
 }
 .segundo_div img{
@@ -101,6 +101,7 @@ overflow: hidden;
     width: 53%;
     margin-right: 5%;
     margin-bottom: 5%;
+    margin-left: 2%;
 }
 .cuarto_div h2{
     color: #0017B2;
